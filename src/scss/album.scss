@@ -1,0 +1,45 @@
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+  .web_bookamrk {
+    margin-bottom: 2em;
+  }
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  .btn-primary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+  }
+  .btn-danger {
+    background-color: #c0392b;
+    border-color: #c0392b;
+  }
+}
+
+.yt-framr {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.card-text {
+  font-size: 85%;
+}

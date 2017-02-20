@@ -1,0 +1,23 @@
+@import "nav";
+
+.jumbotron {
+
+  margin-bottom: 0;
+  background-color: #fff;
+  .btn-primary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}

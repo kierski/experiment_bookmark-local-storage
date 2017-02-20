@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* bootstrap 4 */
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* import scss */
+@import "variables";
+@import 'header';
+@import 'album';
+@import 'footer';
+
+/* index */
+.giphy {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 7em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://media.giphy.com/media/lfmYxOkGpNtEk/giphy.gif);
+}
+
+/* bookmark management */
+#panel {
+  .jumbotron {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  .favourite {
+    margin-bottom: 1.5em;
+  }
+  .alert {
+    margin-top: 2em;
+  }
+}

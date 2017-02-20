@@ -1,0 +1,12 @@
+footer {
+  background-color: $primary-color-dark;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  a {
+    color: $primary-color-light;
+  }
+}
